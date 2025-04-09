@@ -108,7 +108,7 @@ const Home = () => {
           </nav>
 
           <div className="content">
-            <h1> Hey I'm Saqib</h1>
+            <h1> Hey! Saqib <span>here</span> </h1>
             <h3>
               — A frontend developer who loves clean code, smooth UX, and the
               details that matter.
