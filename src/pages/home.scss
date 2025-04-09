@@ -19,9 +19,12 @@ nav {
     }
     .line {
       height: 1px;
-      width: 90px;
+      width: 100px;
       background-color: #b8b8b8;
       display: block;
+    }
+    .time {
+      white-space: nowrap;
     }
     .dflex {
       display: flex;
@@ -75,7 +78,7 @@ section {
 
     h1 {
       font-size: 4em;
-      span{
+      span {
         font-size: 12px;
       }
     }

@@ -52,6 +52,7 @@ button {
   font-size: 12px;
   transition: 0.3s;
   cursor: pointer;
+  white-space: nowrap;
 
   &:hover {
     padding: 7px 12px;

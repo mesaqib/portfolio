@@ -23,16 +23,38 @@ const Home = () => {
   useGSAP(() => {
     let tl = gsap.timeline();
 
-    tl.from("nav", {
+    tl.from("nav .name", {
       duration: 1,
       opacity: 0,
-      delay: 0.5,
+    });
+    tl.from("nav .dot", {
+      duration: 1,
+      opacity: 0,
+      height: 1000,
+      width: 1000,
+      position: "absolute",
+      x: 600,
+      y: 400,
+    });
+    tl.from("nav .city", {
+      duration: 1,
+      opacity: 0,
+    });
+    tl.from("nav .line", {
+      duration: 0.5,
+      opacity: 0,
+      width: 10,
+    });
+    tl.from("nav .time", {
+      duration: 1.5,
+      opacity: 0,
+      width: 10,
     });
 
     tl.from(".content", {
       duration: 1,
       opacity: 0,
-      delay: 0.5,
+      // delay: 0.5,
     });
 
     tl.to(".banner", {
@@ -108,7 +130,10 @@ const Home = () => {
           </nav>
 
           <div className="content">
-            <h1> Hey! Saqib <span>here</span> </h1>
+            <h1>
+              {" "}
+              Hey! Saqib <span>here</span>{" "}
+            </h1>
             <h3>
               — A frontend developer who loves clean code, smooth UX, and the
               details that matter.
