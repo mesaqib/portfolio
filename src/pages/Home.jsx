@@ -74,13 +74,6 @@ const Home = () => {
       },
     });
 
-    // tl.from(".item_list", {
-    //   duration: 1,
-    //   opacity: 0,
-    //   delay: 3,
-    //   x: -800,
-    // });
-
     tl.to(".work", {
       // duration: 1,
       // scale: 0.5,
@@ -89,8 +82,8 @@ const Home = () => {
         trigger: ".work",
         scroller: "body",
         markers: false,
-        start: 585,
-        end: "1170",
+        start: "-2%",
+        end: "150%",
         scrub: 3,
         pin: true,
       },
@@ -98,12 +91,13 @@ const Home = () => {
 
     tl.to(".item_list", {
       x: -600,
+      duration: 2,
       scrollTrigger: {
         trigger: ".item_list",
         scroller: "body",
         markers: false,
-        start: 585,
-        end: "1500",
+        start: "-60%",
+        end: "450%",
         scrub: 3,
         pin: true,
       },
@@ -151,6 +145,12 @@ const Home = () => {
               <h4>Catalyst - Digital Website</h4>
               <p>View Case Study</p>
             </div>
+
+            <div className="item">
+              <img src="/image/img.webp" />
+              <h4>Catalyst - Digital Website</h4>
+              <p>View Case Study</p>
+            </div>
             <div className="item">
               <img src="/image/img.webp" />
               <h4>Catalyst - Digital Website</h4>
@@ -174,7 +174,9 @@ const Home = () => {
           </div>
         </section>
 
-        <section style={{ backgroundColor: "transparent" }}></section>
+        <section
+          style={{ backgroundColor: "transparent", height: "139vh" }}
+        ></section>
 
         <section className="about">
           <div className="about1">
