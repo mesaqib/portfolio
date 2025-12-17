@@ -5,10 +5,7 @@ import portfolioData from "@/data/portfolio.json";
 
 export default function Hero() {
   const heroRef = useRef<HTMLElement>(null);
-  const titleRef = useRef<HTMLHeadingElement>(null);
-  const subtitleRef = useRef<HTMLParagraphElement>(null);
-  const descriptionRef = useRef<HTMLParagraphElement>(null);
-  const ctaRef = useRef<HTMLDivElement>(null);
+  // keep only refs that are used
   const locationRef = useRef<HTMLDivElement>(null);
   const [currentTime, setCurrentTime] = useState(
     new Date().toLocaleTimeString('en-US', {
@@ -53,26 +50,20 @@ export default function Hero() {
         <div ref={locationRef} className="mb-8 text-sm text-gray-400 font-mono">
           {portfolioData.personal.location} — <span className="ml-2">{currentTime}</span>
         </div>
-
         <h1
-          ref={titleRef}
           className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-display font-bold mb-6 leading-tight"
         >
-          <span className="block">Hey! I'm</span>
+          <span className="block">Hey! I&apos;m</span>
           <span className="block text-gradient mt-2">
             {portfolioData.personal.name}
           </span>
         </h1>
-
         <h2
-          ref={subtitleRef}
           className="text-2xl sm:text-3xl md:text-4xl font-display font-medium text-gray-300 mb-6"
         >
           {portfolioData.personal.title}
         </h2>
-
         <p
-          ref={descriptionRef}
           className="text-lg sm:text-xl text-gray-400 max-w-3xl mx-auto mb-12 leading-relaxed"
         >
           {portfolioData.personal.tagline}

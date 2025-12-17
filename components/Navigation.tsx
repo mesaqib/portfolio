@@ -2,7 +2,6 @@
 
 import { useEffect, useRef, useState } from "react";
 import portfolioData from "@/data/portfolio.json";
-import Avatar from "./Avatar";
 
 export default function Navigation() {
   const navRef = useRef<HTMLElement>(null);
@@ -69,7 +68,7 @@ export default function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6">
-            {navItems.map((item, index) => (
+            {navItems.map((item) => (
               <button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
@@ -83,7 +82,7 @@ export default function Navigation() {
               href={`mailto:${portfolioData.personal.email}`}
               className="px-6 py-2 bg-primary-600 hover:bg-primary-500 text-white rounded-full font-medium transition-all duration-300 hover:shadow-lg hover:shadow-primary-500/50"
             >
-              Let's Talk
+              Let&apos;s Talk
             </a>
           </div>
 
@@ -142,7 +141,7 @@ export default function Navigation() {
                     animation: `fadeInUp 0.5s ease-out ${navItems.length * 0.1}s both`
                   }}
                 >
-                  Let's Talk
+                  Let&apos;s Talk
                 </a>
               </div>
             </div>

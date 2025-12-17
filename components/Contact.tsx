@@ -3,9 +3,7 @@
 import { useEffect, useRef } from "react";
 import portfolioData from "@/data/portfolio.json";
 export default function Contact() {
-  const sectionRef = useRef<HTMLElement>(null);
-  const titleRef = useRef<HTMLHeadingElement>(null);
-  const contentRef = useRef<HTMLDivElement>(null);
+  // no element refs needed here
 
   useEffect(() => {
     // No GSAP animations for Contact section.
@@ -30,27 +28,25 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      ref={sectionRef}
       className="relative py-16 md:py-20 px-4 sm:px-6 lg:px-8"
     >
       <div className="max-w-4xl mx-auto">
         <h2
-          ref={titleRef}
           className="text-4xl sm:text-5xl md:text-6xl font-display font-bold mb-4 text-center"
         >
-          <span className="text-gradient">Let's Connect</span>
+          <span className="text-gradient">Let&apos;s Connect</span>
         </h2>
-        <p className="text-center text-gray-400 mb-12 text-lg max-w-2xl mx-auto">
-          Always up for a good idea and great collaboration. Let's build something that feels right and performs even better.
+          <p className="text-center text-gray-400 mb-12 text-lg max-w-2xl mx-auto">
+          Always up for a good idea and great collaboration. Let&apos;s build something that feels right and performs even better.
         </p>
 
-        <div ref={contentRef} className="space-y-6">
+        <div className="space-y-6">
           <div className="text-center mb-8">
-            <h3 className="text-2xl font-display font-semibold text-gray-200 mb-4">
+              <h3 className="text-2xl font-display font-semibold text-gray-200 mb-4">
               Open to Opportunities and New Projects
             </h3>
             <p className="text-gray-400 leading-relaxed max-w-2xl mx-auto">
-              I'm always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+              I&apos;m always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
             </p>
           </div>
 
