@@ -1,0 +1,90 @@
+{
+  "personal": {
+    "name": "SAQIB",
+    "title": "Frontend Developer",
+    "tagline": "Building exceptional web experiences that captivate, foster trust and drive growth",
+    "subtitle": "Crafting seamless, purposeful, and polished touchpoints for every user",
+    "location": "Delhi",
+    "email": "mesaqibsq@gmail.com",
+    "phone": "+91 9606243901",
+    "linkedin": "https://linkedin.com/in/your-profile",
+    "github": "https://github.com/your-profile",
+    "openToWork": {
+      "status": true,
+      "remote": true,
+      "wfo": true,
+      "location": "All Over India"
+    },
+    "summary": "Frontend Developer (2+ years) experienced in React, Redux, and TypeScript, specializing in reusable components, API integration, and responsive UI design. Focus on crafting minimalist, aesthetic, simplicity, and highly detailed work.",
+    "education": {
+      "degree": "B.E. - Computer Science",
+      "year": "2022"
+    },
+    "stats": {
+      "experience": "2+",
+      "projects": "10+",
+      "companies": "2"
+    }
+  },
+  "skills": {
+    "languages": ["JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3", "SCSS"],
+    "frameworks": ["React.js", "Next.js", "Redux", "React Router", "Tailwind CSS", "Bootstrap"],
+    "tools": ["Git", "GitHub", "Azure DevOps", "Vercel", "Figma", "Postman"],
+    "others": ["Responsive Design", "Custom Hooks", "Modular Architecture", "REST APIs", "Agile", "Unit Testing", "Web3", "Blockchain"]
+  },
+  "experience": [
+    {
+      "id": 1,
+      "company": "Intelisync",
+      "role": "Frontend Developer",
+      "period": "Aug 2025 – October 2025",
+      "description": "Developing and maintaining Web3 applications using Next.js, React, TypeScript, and Tailwind CSS.",
+      "achievements": [
+        "Building landing pages and scalable frontend features to support blockchain-based products",
+        "Implementing reusable UI components and integrating Web3 libraries for seamless wallet and dApp interactions",
+        "Collaborating with cross-functional teams to deliver responsive, high-performance user experiences"
+      ],
+      "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Web3"]
+    },
+    {
+      "id": 2,
+      "company": "In2IT Technologies",
+      "role": "UI Developer",
+      "period": "Jun 2023 – Jun 2025",
+      "description": "Built and maintained scalable web applications using React.js, Redux, and TypeScript, delivering consistent performance across all devices.",
+      "achievements": [
+        "Developed pixel-perfect UIs based on Figma designs, ensuring responsive behavior and accessibility",
+        "Refactored and modularized SCSS codebase, improving maintainability and reducing CSS bloat by 30%",
+        "Implemented reusable React components to standardize design patterns and reduce duplicate logic",
+        "Integrated secure RESTful APIs for dynamic data rendering, error handling, and edge-case management",
+        "Managed Git versioning and deployment workflows via Azure DevOps"
+      ],
+      "technologies": ["React.js", "Redux", "TypeScript", "SCSS", "REST APIs", "Azure DevOps"]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Resume Analyzer",
+      "category": "Web Application",
+      "year": "2024",
+      "description": "A web app that analyzes resumes on 15+ ATS parameters and generates a 100-point score. Improved keyword match rates by 30% and helped 75% of users boost scores by 20%+.",
+      "technologies": ["Next.js", "React", "Tailwind CSS", "Vercel", "Puter.js"],
+      "achievements": [
+        "Designed a responsive UI with React & Tailwind CSS, achieving 100% Lighthouse accessibility score",
+        "Integrated Puter.js for seamless cloud hosting and deployment",
+        "Enabled instant file uploads, real-time feedback, and cross-device access with 99.9% uptime"
+      ],
+      "link": "https://your-resume-analyzer-link.com",
+      "github": "https://github.com/your-profile/resume-analyzer",
+      "image": "/projects/resume-analyzer.jpg"
+    }
+  ],
+  "social": {
+    "dribbble": "",
+    "instagram": "",
+    "twitter": "",
+    "medium": "",
+    "linkedin": "https://linkedin.com/in/your-profile"
+  }
+}
